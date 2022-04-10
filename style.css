@@ -8,16 +8,17 @@ body {
 
 
 body {
+    font-family: "Rubik", sans-serif;
     background-color: rgb(255, 255, 255);
-    height: 100vh;
-    width: 100vw;
-    margin: auto;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
 }
 
 .bgwrapper {
     background-color: rgb(255, 121, 72);
     display: block;
-    height: 100vh;
+    min-height: 100vh;
     max-width: 80%;
     margin: auto;
     padding-top: 1px;
@@ -25,14 +26,11 @@ body {
 
 
 .content {
-    font-family: "Rubik", sans-serif;
-    font-size: large;
-    display:block;
-    max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10vw;
+    padding-right: 10vw;
     margin: auto;
-    color: white;
+    font-size: large;
+
 
 }
 
@@ -41,10 +39,21 @@ a {
 
 }
 
-.header {
+p {
+    font-size: large;
+}
+
+#mainheader {
     text-align: center;
     font-size: 42px;
     text-decoration: underline;
+    padding-bottom: 8px;
+}
+
+#header {
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
     padding-bottom: 8px;
 }
 
