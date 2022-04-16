@@ -17,7 +17,6 @@ body {
 
 .bgwrapper {
     background-color: rgb(255, 121, 72);
-    display: block;
     min-height: 100vh;
     max-width: 80%;
     margin: auto;
@@ -48,6 +47,7 @@ p {
     font-size: 42px;
     text-decoration: underline;
     padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 #header {
@@ -65,9 +65,6 @@ p {
 
 .row {
    display: flex;
-   flex-direction: row;
-   align-items: center;
-   align-content: stretch;
    justify-content: center;
 }
 
@@ -76,6 +73,11 @@ p {
     margin-left: auto;
     margin-right: auto;
     max-height: 200px;
-    display:block;
-    align-self: stretch;
+    display: block;
+}
+
+
+*{
+    border: 2px solid red;
+
 }
